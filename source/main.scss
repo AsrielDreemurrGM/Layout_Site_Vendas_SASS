@@ -1,1 +1,13 @@
-@use "config/reset.scss";
+@use "config/reset";
+/*@use "config/variaveis";*/
+
+body {
+    background-color: red; // CRIAR VARIAVEL
+}
+
+header {
+    background-color: #182C61; // CRIAR VARIAVEL
+    position: sticky;
+    top: 0;
+    left: 0;
+}
